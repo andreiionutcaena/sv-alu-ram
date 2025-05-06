@@ -1,0 +1,29 @@
+# Vivado generated files
+*.jou
+*.log
+*.str
+.cache/
+.hw/
+.ip_user_files/
+.sim/
+.runs/
+.webtalk/
+*.xpr
+*.xgui
+*.wdb
+
+# Simulation output
+*.vcd
+*.vpd
+*.svf
+*.bak
+*.tmp
+*.pb
+*.fdb
+*.rpt
+*.wlf
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp

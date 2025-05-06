@@ -67,6 +67,21 @@ xsim tb
 
 ---
 
+
+## 🖥️ Simulation Results
+
+After running the testbench, observe the following outputs at different `select` values (assuming `addr0 = 4`, `addr1 = 2`, where memory[4]=250 and memory[2]=50):
+
+| Select | Operation   | Data0 | Data1 | Result | Zero Flag | Carry Flag |
+|:------:|-------------|:-----:|:-----:|:------:|:---------:|:----------:|
+| `000`  | Addition    | 250   | 50    | 44     | 0         | 1          |
+| `001`  | Subtraction | 250   | 50    | 200    | 0         | 1          |
+| `010`  | AND         | 250   | 50    | 50     | 0         | 1          |
+| `011`  | OR          | 250   | 50    | 250    | 0         | 1          |
+| `100`  | XOR         | 250   | 50    | 200    | 0         | 1          |
+
+---
+
 ## ⚙️ ALU Operation Codes
 
 | `select` | Operation     |
